@@ -19,5 +19,3 @@ def plot_line_i(ticker:str):
     from plot.interactive import plot_line_i
 
     plot_line_i('CPLE3.SA')
-    
-    return fig
