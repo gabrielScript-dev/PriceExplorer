@@ -16,6 +16,4 @@ def plot_line_i(ticker:str):
         color_discrete_map= {'Close': 'black', 'SMA': 'red', 'LMA': 'blue'}
     )   
 
-    from plot.interactive import plot_line_i
-
-    plot_line_i('CPLE3.SA')
+    return fig
